@@ -1,0 +1,37 @@
+{
+  "name": "timemanager",
+  "version": "1.0.0",
+  "description": "Time Manager API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogerionunes/timemanager.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Rogério Nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogerionunes/timemanager/issues"
+  },
+  "homepage": "https://github.com/rogerionunes/timemanager#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^16.4.6",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.31.0",
+    "type": "^2.5.0"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
